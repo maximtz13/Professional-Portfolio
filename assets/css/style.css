@@ -30,16 +30,12 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-size: cover;
-    background-position: center;
-    background-position: 30%;
-    background-attachment: fixed;
     z-index: 999;
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 1.1vw;
+    font-size: 36px;
     color: var(--primary-color);
     margin: auto;
     margin-left: 0;
@@ -67,9 +63,9 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 8px 20px;
+    padding: .3vw .8vw;
     font-weight: lighter;
-    font-size: 1vw;
+    font-size: 20px;
     text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.25);
     background: var(--quaternary-color);
     border-radius: 60px;
@@ -100,7 +96,7 @@ header nav ul li a:hover {
     margin: 0;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgb(0,0,0, 1);
-    font-size: 1.6vw;
+    font-size: 36px;
     line-height: 1.7;
     border-bottom: 2px solid var(--secondary-color);
 }
@@ -129,8 +125,6 @@ section {
 }
 
 .body {
-    display: flex;
-    flex-wrap: wrap;
     max-width: 100%;
 }
 
@@ -141,6 +135,11 @@ section {
 .flex-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexer1 {
+    width: 100%;
 }
 
 div {
@@ -157,6 +156,67 @@ div p {
 }
 
 .works {
-   display: flex;
-   flex-direction: column;
+    width: 100%;
+}
+
+.proj {
+    margin: 1%;
+}
+
+.proj img {
+    width: 500px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .hero-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .margin {
+        flex-direction: column;
+    }
+
+    .proj img {
+        width: 100%;
+    }
+
+    .section-title {
+        border-right: none;
+        border-bottom: 2px solid;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+
+}
+  
+@media screen and (max-width: 575px) {
+
+
 }
