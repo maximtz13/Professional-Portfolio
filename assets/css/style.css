@@ -2,7 +2,7 @@
     --primary-color: #eeb462;
     --secondary-color: #534666;
     --tertiary-color: #7868b3;
-    --quaternary-color: rgba(83,70,102,0.6)
+    --quaternary-color: rgba(83, 70, 102, 0.6)
 }
 
 * {
@@ -39,7 +39,7 @@ header h1 {
     color: var(--primary-color);
     margin: auto;
     margin-left: 0;
-    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 header a {
@@ -66,7 +66,7 @@ header nav ul li a {
     padding: .3vw .8vw;
     font-weight: lighter;
     font-size: 20px;
-    text-shadow: 1.5px 1.5px 0px rgba(0,0,0,0.25);
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.25);
     background: var(--quaternary-color);
     border-radius: 60px;
 }
@@ -95,7 +95,7 @@ header nav ul li a:hover {
     padding: 100px 15px 0 15px;
     margin: 0;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgb(0,0,0, 1);
+    text-shadow: 0 0 10px rgb(0, 0, 0, 1);
     font-size: 36px;
     line-height: 1.7;
     border-bottom: 2px solid var(--secondary-color);
@@ -119,7 +119,7 @@ section {
 }
 
 .body section {
-    padding: 0 0 100px 0 ;
+    padding: 0 0 100px 0;
     display: flex;
     flex: 1;
 }
@@ -153,7 +153,7 @@ section {
     background-size: cover;
     display: flex;
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 .flexer2 {
@@ -172,6 +172,23 @@ section {
     height: 100%;
 }
 
+.flexer1 {
+    background-size: 100% 100%;
+    display: flex;
+    width: 50vw;
+    height: 30vw;
+    margin: 5;
+}
+
+.flexer2,
+.flexer3 {
+    background-size: 100% 100%;
+    display: flex;
+    width: 22vw;
+    height: 15vw;
+    margin: 5;
+}
+
 div {
     font-size: 20px;
 }
@@ -180,7 +197,7 @@ div p {
     line-height: 1.7;
 }
 
-.proj {
+.projs {
     margin: 1%;
 }
 
@@ -189,8 +206,12 @@ div p {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 980px) {
+    .work {
+        margin: 0 15 0 15;
+    }
+
     .works {
-        margin: 10 0;
+        margin: 10 0 10 0;
     }
 
     header {
@@ -224,19 +245,14 @@ div p {
         flex-direction: column;
     }
 
-    .flexer1{
+    .flexer1,
+    .flexer2,
+    .flexer3 {
         background-size: 100% 100%;
         display: flex;
-        width: 90vw;
-        height: 45vw;
-        margin: auto;
-    }
-
-    .flexer2, .flexer3 {
-        background-size: 100% 100%;
-        display: flex;
-        width: 45vw;
-        height: 22vw;
+        width: 70vw;
+        height: 40vw;
+        margin: 10 20;
     }
 
     .section-title {
@@ -249,7 +265,7 @@ div p {
         margin: 0 5% 0 5%;
     }
 }
-  
+
 @media screen and (max-width: 768px) {
     .works {
         margin: 10 0;
@@ -259,16 +275,17 @@ div p {
         margin: 0;
     }
 
-    .flexer1, .flexer2, .flexer3 {
+    .flexer1,
+    .flexer2,
+    .flexer3 {
         background-size: 100% 100%;
         display: flex;
         width: 95vw;
-        height: 40vw;
+        height: 55vw;
         margin: 0;
     }
 }
-  
+
 @media screen and (max-width: 575px) {
-    .flexer2, .flexer3 {
-    }
+
 }
