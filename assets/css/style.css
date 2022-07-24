@@ -14,7 +14,7 @@
 body {
     color: var(--tertiary-color);
     font-family: sans-serif, arial, helvetica;
-    background-color: #f3dec096;
+    background-color: #f8f1e896;
 }
 
 .border {
@@ -239,7 +239,17 @@ section {
     -webkit-filter: grayscale(60%);
 }
 
+.grays {
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+    text-align: center;
+}
+
 .gray:hover {
+    filter: none;
+}
+
+.gray:hover ~ .col {
     filter: none;
 }
 
@@ -324,6 +334,12 @@ div p {
     .margin {
         margin: 0 5% 0 5%;
     }
+
+    .label1, .label2, .label3 {
+        bottom: 20vw;
+        left: 3vw;
+        width: 15vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -344,8 +360,16 @@ div p {
         height: 55vw;
         margin: 0;
     }
+    
+    .label1, .label2, .label3 {
+        bottom: 20vw;
+        left: 1vw;
+        width: 20vw;
+    }
 }
 
 @media screen and (max-width: 575px) {
-
+    .label1, .label2, .label3 {
+        width: 80vw;
+    }
 }
