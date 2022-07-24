@@ -142,6 +142,7 @@ section {
     margin: 10 10;
     display: flex;
     width: 100%;
+    position: relative;
 }
 
 .works {
@@ -154,6 +155,50 @@ section {
     display: flex;
     width: 100%;
     height: 100%;
+}
+
+.cont {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.label1 {
+    position: relative;
+    color: var(--primary-color);
+    bottom: 10vw;
+    width: 12vw;
+    background-color: #534666;
+    font-size: 20px;
+    padding: .2%;
+    border: 5px solid #534666;
+    border-radius: 0 15px 15px 0;
+}
+
+.label2 {
+    position: relative;
+    color: var(--primary-color);
+    bottom: 8vw;
+    left: .3vw;
+    width: 12vw;
+    background-color: #534666;
+    font-size: 20px;
+    padding: .2%;
+    border: 5px solid #534666;
+    border-radius: 0 15px 15px 0;
+}
+
+.label3 {
+    position: relative;
+    color: var(--primary-color);
+    bottom: 8vw;
+    left: .3vw;
+    width: 12vw;
+    background-color: #534666;
+    font-size: 20px;
+    padding: .2%;
+    border: 5px solid #534666;
+    border-radius: 0 15px 15px 0;
 }
 
 .flexer2 {
@@ -177,16 +222,21 @@ section {
     display: flex;
     width: 50vw;
     height: 30vw;
-    margin: 5;
+    margin: 5 0 5 0;
 }
 
-.flexer2,
-.flexer3 {
+.flexer2, .flexer3 {
     background-size: 100% 100%;
     display: flex;
-    width: 22vw;
+    width: 25vw;
     height: 15vw;
-    margin: 5;
+    margin: 5 2.5 5 2.5;
+}
+
+.bord {
+    border: 10px solid var(--secondary-color);
+    border-radius: 15px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 div {
