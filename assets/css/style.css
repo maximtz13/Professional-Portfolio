@@ -14,6 +14,7 @@
 body {
     color: var(--tertiary-color);
     font-family: sans-serif, arial, helvetica;
+    background-color: #f3dec096;
 }
 
 .border {
@@ -231,6 +232,15 @@ section {
     width: 25vw;
     height: 15vw;
     margin: 5 2.5 5 2.5;
+}
+
+.gray {
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+}
+
+.gray:hover {
+    filter: none;
 }
 
 .bord {
