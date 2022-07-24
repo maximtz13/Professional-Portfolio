@@ -80,7 +80,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("/assets/images/laptop-iphone-desk-notebook-computer-smartphone-914474-pxhere.com.jpg");
+    background-image: url("../images/laptop-iphone-desk-notebook-computer-smartphone-914474-pxhere.com.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -172,7 +172,7 @@ section {
 }
 
 .flexer1 {
-    background-image: url(/assets/images/run-buddy.png);
+    background-image: url("../images/run-buddy.png");
     background-size: cover;
     display: flex;
     width: 100%;
@@ -224,7 +224,7 @@ section {
 }
 
 .flexer2 {
-    background-image: url(/assets/images/horiseon.png);
+    background-image: url("../images/horiseon.png");
     background-size: auto;
     display: flex;
     width: 100%;
@@ -232,7 +232,7 @@ section {
 }
 
 .flexer3 {
-    background-image: url(/assets/images/portfolio.png);
+    background-image: url("../images/portfolio.png");
     background-size: cover;
     display: flex;
     width: 100%;
@@ -373,7 +373,7 @@ div p {
     }
 
     .margin {
-        margin: 0 5% 0 5%;
+        margin-bottom: 20px;
     }
 
     .label1, .label2, .label3 {
@@ -385,6 +385,10 @@ div p {
     .contacts {
         font-size: 5vw;
     }
+
+    .hero {
+        bottom: 120px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -393,7 +397,7 @@ div p {
     }
 
     .margin {
-        margin: 50px;
+        margin-bottom: 20px;
     }
 
     .flexer1,
@@ -409,7 +413,15 @@ div p {
     .label1, .label2, .label3 {
         bottom: 20vw;
         left: 1vw;
-        width: 20vw;
+        width: 80vw;
+    }
+
+    .hero {
+        bottom: 150px;
+    }
+
+    .hero-title {
+        padding-top: 120px;
     }
 }
 
