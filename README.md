@@ -10,4 +10,4 @@ This is my first professional portfolio, created from scratch by me.  This is me
 
 ## Screenshot of Portfolio
 
-![Maximo's Portfolio](../Professional-Portfolio/assets/images/portfolio.png)
+![Maximo's Portfolio](./assets/images/portfolio.png)
