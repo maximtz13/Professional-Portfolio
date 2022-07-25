@@ -102,7 +102,7 @@ header nav ul li a:hover {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-section {
+article {
     padding: 30px;
     display: flex;
     margin-left: auto;
@@ -117,16 +117,6 @@ section {
     margin-right: 20px;
     display: inline-block;
     padding-right: 15px;
-}
-
-.body section {
-    padding: 0 0 100px 0;
-    display: flex;
-    flex: 1;
-}
-
-.body {
-    max-width: 100%;
 }
 
 .margin {
@@ -285,11 +275,8 @@ section {
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
-div {
+body {
     font-size: 20px;
-}
-
-div p {
     line-height: 1.7;
 }
 
