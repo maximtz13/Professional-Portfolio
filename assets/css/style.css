@@ -257,6 +257,14 @@ article {
     height: 100%;
 }
 
+.flexer5 {
+    background-image: url("../images/readme1.jpg");
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .flexer1 {
     background-size: 100% 100%;
     display: flex;
@@ -265,7 +273,7 @@ article {
     margin: 5 0 5 0;
 }
 
-.flexer2, .flexer3, .flexer4 {
+.flexer2, .flexer3, .flexer4, .flexer5 {
     background-size: 100% 100%;
     display: flex;
     width: 25vw;
@@ -422,7 +430,9 @@ h2.section-title {
 
     .flexer1,
     .flexer2,
-    .flexer3 {
+    .flexer3,
+    .flexer4,
+    .flexer5 {
         background-size: 100% 100%;
         display: flex;
         width: 70vw;
@@ -474,7 +484,9 @@ h2.section-title {
 
     .flexer1,
     .flexer2,
-    .flexer3 {
+    .flexer3,
+    .flexer4,
+    .flexer5 {
         background-size: 100% 100%;
         display: flex;
         width: 85vw;
